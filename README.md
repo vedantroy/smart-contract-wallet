@@ -1,3 +1,15 @@
+# Smart Contract Wallet
+
+This is a smart contract wallet built on top of Scaffold Eth (the Scaffold Eth README is attached to this one).
+
+See: https://vitalik.ca/general/2021/01/11/recovery.html
+
+This wallet supports the following features:
+- Spend Limits. Transfers above the wallet's spend limit must be approved by guardians within a certain time frame.
+  - The spend limit can be changed.
+- Ownership/recovery using guardians.
+- Addition/removal of guardians.
+
 # 🏗 scaffold-eth
 
 > is everything you need to get started building decentralized applications powered by smart contracts
